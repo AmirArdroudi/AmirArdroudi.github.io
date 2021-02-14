@@ -1,15 +1,15 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
+title: 'Pursuit of Redemption'
 cover: './halcyon.png'
 github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+external: 'https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - Unity
+  - C#
+  - 2D
+  - Platformer
+  - Puzzle
 showInProjects: true
 ---
 
