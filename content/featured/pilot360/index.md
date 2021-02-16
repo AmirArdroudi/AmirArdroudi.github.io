@@ -1,14 +1,13 @@
 ---
-date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+date: '4'
+title: 'Pilot360'
+cover: './pilot360.png'
+external: 'https://games.legendsoflearning.com/game/pilot-360/2515?partner=legends-public&media=game'
 tech:
-  - React
-  - Node.js
-  - Express
-  - Spotify Web API
+  - Educational
+  - Unity
+  - C#
+  - 2D
 showInProjects: true
 ---
 

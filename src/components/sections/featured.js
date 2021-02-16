@@ -118,7 +118,7 @@ const StyledProject = styled.div`
 
     @media (max-width: 768px) {
       padding: 20px 0;
-      background-color: transparent;
+      background-color: var(--navy);
       box-shadow: none;
 
       &:hover {
@@ -193,9 +193,10 @@ const StyledProject = styled.div`
     z-index: 1;
 
     @media (max-width: 768px) {
-      grid-column: 1 / -1;
-      height: 100%;
-      opacity: 0.25;
+      grid-column: 6 / -1;
+      grid-row: 1 / -2;
+      position: relative;
+      z-index: 1;
     }
 
     a {
@@ -204,16 +205,7 @@ const StyledProject = styled.div`
       border-radius: var(--border-radius);
       vertical-align: middle;
 
-      &:hover,
-      &:focus {
-        background: transparent;
-
-        &:before,
-        .img {
-          background: transparent;
-          filter: none;
-        }
-      }
+ 
 
       &:before {
         content: '';
@@ -226,21 +218,19 @@ const StyledProject = styled.div`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
+        background-color: var(--trans);
+        mix-blend-mode: normal;
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      mix-blend-mode: normal;
 
       @media (max-width: 768px) {
         object-fit: cover;
         width: auto;
         height: 100%;
-        filter: grayscale(100%) contrast(1) brightness(80%);
       }
     }
   }

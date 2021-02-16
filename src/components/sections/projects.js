@@ -211,9 +211,7 @@ const Projects = () => {
                   <div className="project-inner">
                     <header>
                       <div className="project-top">
-                        <div className="folder">
-                          <Icon name="Folder" />
-                        </div>
+                        
                         <div className="project-links">
                           {github && (
                             <a href={github} aria-label="GitHub Link">

@@ -7,17 +7,18 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
-    --dark-navy: #0C0912;
-    --navy: #0C0912;
-    --light-navy: #16111C;
-    --lightest-navy: #16111C;
+    --dark-navy: #FBF7F6;
+    --navy: #FBF7F6;
+    --light-navy: #FBF7F6; // description bg color
+    --lightest-navy: #a72b3e; //line color
     --navy-shadow: rgba(52, 43, 62, 0.1);
     --slate: #8892b0;
     --light-slate: #a8b2d1;
-    --lightest-slate: #ccd6f6;
+    --lightest-slate: #fffff;
     --white: #e6f1ff;
-    --green: #FB9000;
+    --green: #a72b3e;
     --green-tint: rgb(251, 144, 0, 0.3);
+    --trans : #fffff
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
@@ -162,8 +163,8 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     margin: 0 0 10px 0;
-    font-weight: 600;
-    color: var(--lightest-slate);
+    font-weight: 900;
+    color: var(--green);
     line-height: 1.1;
   }
 

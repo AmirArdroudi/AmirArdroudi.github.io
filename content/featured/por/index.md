@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Pursuit of Redemption'
-cover: './halcyon.png'
+cover: './por.png'
 github: 'https://github.com/bchiang7/halcyon-site'
 external: 'https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/'
 tech:

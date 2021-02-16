@@ -10,5 +10,6 @@ tech:
 company: 'Upstatement'
 showInProjects: true
 ---
+![alt text](./images/blistabloc.png "Title")
 
 Building a custom multisite compatible WordPress plugin to build global search with Algolia
