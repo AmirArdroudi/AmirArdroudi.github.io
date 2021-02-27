@@ -10,8 +10,5 @@ tech:
 company: 'Legends of Learning'
 showInProjects: true
 ---
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=pq6h-i2fPQs" 
-frameborder="0"
-allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cp4Rxh1ZqzA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

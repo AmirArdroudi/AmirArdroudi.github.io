@@ -8,6 +8,9 @@ import sr from '@utils/sr';
 const StyledAboutSection = styled.section`
   max-width: 900px;
 
+  text-align: justify;
+  text-justify: inter-word;
+
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -132,7 +135,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['C#', 'C++', 'Git', 'Unity', 'Unreal'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,22 +144,26 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>I'm AmirAhmad Ardroudi, a game programmer/developer from Iran.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              From my childhood I loved playing video games, and that derived a passion towards
+              making them. Then, I set about building games when I was a teenager using Unity and
+              Unreal game engines. In college I decided to pursue my career as a game developer,
+              because of that, since then I have built (or worked on) eight projects.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Beside developing games, I have some experience in game engine programming and
+              architecture, such as Entity Component System (ECS) and Data Driven design.
             </p>
-
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              Furthermore, throughout these years, I have kept a mindset of programming clean,
+              consice, resource-friendly and optimized code. Also I have a good deal of experience
+              working with teams and collaborating with game designers which had a palatable impact
+              on player experience and leads to juicing up the aformentioned projects.
+            </p>
+            <p>Here are a few technologies and languages I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">
