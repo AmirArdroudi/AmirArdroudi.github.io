@@ -27,27 +27,35 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-b04fadc0986b0d4fb9ad.js"
+    "url": "webpack-runtime-4150ce0cd11e82d6c35c.js"
   },
   {
     "url": "framework-305b3707783ccc9d7ca6.js"
   },
   {
-    "url": "app-e16fe45d54baea02901d.js"
+    "url": "app-200cff2eae1620771713.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "fbacd0df5a0d1b573ee8a16f565537e5"
+    "revision": "2c41b09f4eefbad92edf21b2a82691b7"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-8033a24e61cb6e6f32a5.js"
+  },
+  {
+    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
+    "revision": "f6081b83111aea4128c98944b7fafccc"
+  },
+  {
+    "url": "page-data/app-data.json",
+    "revision": "e34d3fcbe0c429bfdf23c2bcd80ed00c"
   },
   {
     "url": "polyfill-7e4d7804df080eb8f631.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "1ca6e970399718c9579e56fb78f8ebd8"
+    "revision": "b022e96500f32367d7c2aa070a33f676"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -134,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/AmirArdroudi.github.io`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e16fe45d54baea02901d.js`))) {
+  if (!resources || !(await caches.match(`/AmirArdroudi.github.io/app-200cff2eae1620771713.js`))) {
     return await fetch(event.request)
   }
 
@@ -152,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/AmirArdroudi.github.io/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
