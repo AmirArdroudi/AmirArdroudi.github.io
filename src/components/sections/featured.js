@@ -7,6 +7,7 @@ import sr from '@utils/sr';
 import { Icon } from '@components/icons';
 
 const StyledProjectsSection = styled.section`
+  max-width: 1100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,13 +26,13 @@ const StyledProjectsSection = styled.section`
 
   .projects-grid {
     display: grid;
-    grid-template-columns: 600px 600px;
+    grid-template-columns: 2fr 2fr;
     grid-gap: 15px;
     position: relative;
     margin-top: 50px;
 
     @media (max-width: 1080px) {
-      grid-template-columns: 600px 600px;
+      grid-template-columns: 2fr 2fr;
     }
   }
 
