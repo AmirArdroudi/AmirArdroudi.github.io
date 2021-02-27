@@ -1,10 +1,10 @@
 ---
-date: '2017-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - June 2017'
-url: 'https://web.northeastern.edu/scout/'
+date: '2019-04-01'
+title: 'Game Developer'
+company: 'Legends Of Learning'
+location: 'Washington D.C., USA'
+range: 'January 2019 - Now'
+url: 'https://www.legendsoflearning.com/'
 ---
 
 - Collaborated with a small team of student designers to spearhead a new brand and design system for Scout’s inaugural student-led design conference at Northeastern

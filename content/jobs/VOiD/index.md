@@ -1,9 +1,9 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
+title: 'Game Programmer'
+company: 'VOiD'
+location: 'Tabriz, Iran'
+range: 'November 2018 - now'
 url: 'https://www.apple.com/music/'
 ---
 

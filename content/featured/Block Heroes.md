@@ -10,6 +10,6 @@ tech:
   - Multiplayer
   - Android/PC
 
-company: 'Legends of Learning'
+company: ''
 showInProjects: true
 ---
