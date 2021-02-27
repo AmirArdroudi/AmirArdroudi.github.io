@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import { Icon } from '@components/icons';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -30,12 +31,16 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 500px;
+    max-width: 700px;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .email-link {
-    ${({ theme }) => theme.mixins.bigButton};
+    ${({ theme }) => theme.mixins.smallButton};
     margin-top: 50px;
+    width: 50px;
+    height: 50px;
   }
 `;
 
@@ -48,18 +53,28 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">AmirAhmad Ardroudi</h2>;
+  const three = <h3 className="big-heading">I am a Game Programmer.</h3>;
   const four = (
     <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      I'm a diligent and team-oriented game programmer/developer, who aspires to write clean,
+      optimized and resource-friendly code. Building tools, programming and 'juicing' the gameplay
+      is right up my alley. Currently I am working as a freelance game developer for{' '}
+      <a href="https://www.legendsoflearning.com">Legends of Learning</a>, a company based in United
+      States.
     </p>
   );
   const five = (
-    <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
-    </a>
+    <div>
+      {' '}
+      <a href="https://github.com/amirardroudi" className="email-link">
+        <Icon name="GitHub" />
+      </a>
+      ...
+      <a href={`mailto:${email}`} className="email-link">
+        <Icon name="Zap" />
+      </a>
+    </div>
   );
 
   const items = [one, two, three, four, five];
