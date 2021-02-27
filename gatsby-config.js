@@ -1,13 +1,14 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/AmirArdroudi.github.io',
   siteMetadata: {
     title: 'Brittany Chiang',
     description:
       'Brittany Chiang is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://amirardroudi.github.io/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@AmirArdroudi',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
