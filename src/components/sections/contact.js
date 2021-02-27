@@ -1,65 +1,119 @@
 import React, { useEffect, useRef } from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import styled from 'styled-components';
-import { srConfig, email } from '@config';
+import { srConfig } from '@config';
 import sr from '@utils/sr';
 
-const StyledContactSection = styled.section`
-  max-width: 600px;
-  margin: 0 auto 100px;
-  text-align: center;
+const StyledAboutSection = styled.section`
+  max-width: 1000px;
+
+  .inner {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 50px;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+`;
+const StyledText = styled.div`
+  ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    list-style: none;
+
+    li {
+      position: relative;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      font-family: var(--font-mono);
+      font-size: var(--fz-xs);
+
+      &:before {
+        content: '▹';
+        position: absolute;
+        left: 0;
+        color: var(--green);
+        font-size: var(--fz-sm);
+        line-height: 12px;
+      }
+    }
+  }
+`;
+const StyledPic = styled.div`
+  position: relative;
+  max-width: 800px;
 
   @media (max-width: 768px) {
-    margin: 0 auto 50px;
-  }
-
-  .overline {
-    display: block;
-    margin-bottom: 20px;
-    color: var(--green);
-    font-family: var(--font-mono);
-    font-size: var(--fz-md);
-    font-weight: 400;
-
-    &:before {
-      bottom: 0;
-      font-size: var(--fz-sm);
-    }
-
-    &:after {
-      display: none;
-    }
-  }
-
-  .title {
-    font-size: clamp(40px, 5vw, 60px);
-  }
-
-  .email-link {
-    ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+    margin: 50px auto 0;
+    width: 100%;
   }
 `;
 
-const Contact = () => {
+const About = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
+          }
+        }
+      }
+    }
+  `);
+
   const revealContainer = useRef(null);
-  useEffect(() => sr.reveal(revealContainer.current, srConfig()), []);
+
+  useEffect(() => {
+    sr.reveal(revealContainer.current, srConfig());
+  }, []);
+
+  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
 
   return (
-    <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+    <StyledAboutSection id="about" ref={revealContainer}>
+      <h2 className="numbered-heading">About Me</h2>
 
-      <h2 className="title">Get In Touch</h2>
+      <div className="inner">
+        <StyledText>
+          <div>
+            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
 
-      <p>
-        Although I'm not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I'll try my best to get back to you!
-      </p>
+            <p>
+              I enjoy creating things that live on the internet, whether that be websites,
+              applications, or anything in between. My goal is to always build products that provide
+              pixel-perfect, performant experiences.
+            </p>
 
-      <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
-      </a>
-    </StyledContactSection>
+            <p>
+              Shortly after graduating from{' '}
+              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
+              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
+              on a wide variety of interesting and meaningful projects on a daily basis.
+            </p>
+
+            <p>Here are a few technologies I've been working with recently:</p>
+          </div>
+
+          <ul className="skills-list">
+            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+        </StyledText>
+
+        <StyledPic>
+          <div className="wrapper">
+            <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
+          </div>
+        </StyledPic>
+      </div>
+    </StyledAboutSection>
   );
 };
 
-export default Contact;
+export default About;
