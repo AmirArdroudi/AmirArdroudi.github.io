@@ -1,5 +1,5 @@
 ---
-date: '2017-11-01'
+date: '2021-11-01'
 title: 'Pursuit of Redemption'
 github: 'https://voidgamesstudio.com/'
 external: 'https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/'
