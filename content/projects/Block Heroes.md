@@ -13,4 +13,8 @@ tech:
 company: ''
 showInProjects: true
 ---
-![](./images/bhlogo.png)
+
+![Block Hereos logo](images/bhlogo.png)
+
+---
+Block Heroes is a Tetris-clone game. 
