@@ -16,4 +16,4 @@ showInProjects: true
 
 ---
 
-Block Heroes is a Tetris-clone game. 
+Ariyana is a data-driven modular game engine which... 
