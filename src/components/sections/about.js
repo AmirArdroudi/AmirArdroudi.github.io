@@ -6,7 +6,7 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 
 const StyledAboutSection = styled.section`
-  max-width: 900px;
+  max-width: 1000px;
 
   text-align: justify;
   text-justify: inter-word;
@@ -135,7 +135,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C#', 'C++', 'Git', 'Unity', 'Unreal'];
+  const skills = ['C#', 'Unity', 'C++', 'Git', 'Python', 'UE4', 'Opengl'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>

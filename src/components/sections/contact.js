@@ -158,7 +158,7 @@ const About = () => {
             
             <h3>Hobbies</h3>
             <p>
-            I play electeric guitar in my spare time, mostly I play and listen to progressive rock/metal.
+            I play electeric guitar in my spare time, mostly I play and listen to progressive rock/metal 🤟
             Played a little basketball in highschool. Also of course playing video games and board games is my heroine.
             </p>
             

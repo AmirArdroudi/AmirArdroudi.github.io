@@ -7,7 +7,7 @@ import { KEY_CODES } from '@utils';
 import sr from '@utils/sr';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 1000px;
 
   .inner {
     display: flex;
@@ -119,7 +119,7 @@ const StyledHighlight = styled.div`
 `;
 
 const StyledTabContent = styled.div`
-  width: 100%;
+  width: 70%;
   height: auto;
   padding-top: 10px;
   padding-left: 30px;

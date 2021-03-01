@@ -7,7 +7,7 @@ import sr from '@utils/sr';
 import { Icon } from '@components/icons';
 
 const StyledProjectsSection = styled.section`
-  max-width: 1100px;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,7 +184,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Featured Projects</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
@@ -250,9 +250,6 @@ const Projects = () => {
           })}
       </TransitionGroup>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
     </StyledProjectsSection>
   );
 };

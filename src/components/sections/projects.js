@@ -7,6 +7,7 @@ import sr from '@utils/sr';
 import { Icon } from '@components/icons';
 
 const StyledProjectsSection = styled.section`
+  width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,13 +26,13 @@ const StyledProjectsSection = styled.section`
 
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
     position: relative;
     margin-top: 50px;
 
     @media (max-width: 1080px) {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 
@@ -183,7 +184,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
+      <h2 ref={revealTitle}>Featured Projects</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
@@ -211,7 +212,6 @@ const Projects = () => {
                   <div className="project-inner">
                     <header>
                       <div className="project-top">
-                        
                         <div className="project-links">
                           {github && (
                             <a href={github} aria-label="GitHub Link">
@@ -250,9 +250,6 @@ const Projects = () => {
           })}
       </TransitionGroup>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
     </StyledProjectsSection>
   );
 };

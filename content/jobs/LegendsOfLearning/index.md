@@ -7,5 +7,5 @@ range: 'January 2019 - Now'
 url: 'https://www.legendsoflearning.com/'
 ---
 
-- Collaborated with a small team of student designers to spearhead a new brand and design system for Scout’s inaugural student-led design conference at Northeastern
-- Worked closely with designers and management team to develop, document, and manage the conference’s marketing website using Jekyll, Sass, and JavaScript
+- Collaborated with a game designer on creating educational games for purpose of gamification of math and science learning experience. 
+- At present, we have built five titles with this company. The main tools that I've worked with consist of Unity, C# and the provided custom SDK.
