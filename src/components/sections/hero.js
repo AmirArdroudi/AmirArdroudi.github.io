@@ -66,11 +66,10 @@ const Hero = () => {
   );
   const five = (
     <div>
-     
       <a href="https://github.com/amirardroudi" className="email-link">
         <Icon name="GitHub" />
       </a>
-      {' '}
+      {' '}&nbsp;&nbsp;
 
       <a href={`mailto:${email}`} className="email-link">
         <Icon name="Zap" />
