@@ -135,14 +135,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
   const confs =
-   [
-    'Speaker at Software Freedom Day conference (Opensource game development tools and engines) at Tabriz University, Iran - 2017',
-    'Speaker at AR/VR convention at Tabriz University Innovation Center, Iran - 2019',
-    'Presenter at AR/VR Workshop at Tabriz University Innovation Center, Iran - 2019',
+    [
+      'Speaker at Software Freedom Day conference (Opensource game development tools and engines) at Tabriz University, Iran - 2017',
+      'Speaker at AR/VR convention at Tabriz University Innovation Center, Iran - 2019',
+      'Presenter at AR/VR Workshop at Tabriz University Innovation Center, Iran - 2019',
+    ];
+  const achivs =
+    [
 
     ];
+
   return (
     <StyledAboutSection id="etc" ref={revealContainer}>
       <h2 className="numbered-heading">Et Cetera | Résumé </h2>
@@ -152,20 +155,34 @@ const About = () => {
           <div>
             <h3>Conferences</h3>
             <ul className="skills-list">
-            {confs && confs.map((conf, i) =><div> <li key={i}>{conf} </li> </div>)}
+              {confs && confs.map((conf, i) => <div> <li key={i}>{conf} </li> </div>)}
             </ul>
             <p></p>
-            
+
+            <h3>Achievements</h3>
+            <ul className="skills-list">
+              <li> Achived bronze level in  Codingame - Code Royale game <a href="https://www.codingame.com/multiplayer/bot-programming/code-royale"> [Link] </a>
+              </li>
+              <li> Two times participant of The ICPC International Collegiate Programming Contest. <a href="https://icpc.global"> [Link] </a>
+              </li>
+            </ul>
+
+
+            <ul className="skills-list">
+              {achivs && achivs.map((achiv, i) => <div> <li key={i}>{achiv} </li> </div>)}
+            </ul>
+            <p></p>
+
             <h3>Hobbies</h3>
             <p>
-            I play electeric guitar in my spare time, mostly I play and listen to progressive rock/metal 🤟
-            Played a little basketball in highschool. Also of course playing video games and board games is my heroine.
+              I play electeric guitar in my spare time, mostly I play and listen to progressive rock/metal 🤟
+              Played a little basketball in highschool. Also of course playing video games and board games is my heroine.
             </p>
-            
+
 
           </div>
 
-        
+
         </StyledText>
 
         <StyledPic>

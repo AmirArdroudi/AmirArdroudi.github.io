@@ -15,6 +15,5 @@ showInProjects: true
 ![ariyana 2d sprite test](/images/ari2d.jpg)
 
 ---
-I've creted a setup tutorial for Ariyana game engine 2D system as I created the 2D system of it. 
-In Ariyana engine we have decided to build a wrapper around it in [beef language](https://www.beeflang.org/).
-In this tutorial I explaned steps of setuping a 2D environment in beef language based on this game engine.
+
+Created the 2D system for [Ariyana engine](https://github.com/AmirArdroudi/ariyana) and written setup documentation for 2D module system around [beef language](https://www.beeflang.org/) IDE in form of a tutorial. Which explains setting up the environment and scripting a 2D project.

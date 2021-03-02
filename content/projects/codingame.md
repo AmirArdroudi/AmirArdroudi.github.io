@@ -14,4 +14,4 @@ showInProjects: true
 
 ---
 
-As a hobby I've decided to participate in [Codingame](https://www.codingame.com) AI challenges. Sometimes it becomes pretty fun when you see how your programmed AI behaive comparatively.
+As a hobby I've decided to participate in [Codingame](https://www.codingame.com) AI challenges. The purpose of this exercise was to compete against other programmers in order to create a bot which will play as AI in strategic games.

@@ -141,7 +141,7 @@ const StyledProject = styled.div`
   }
 `;
 
-const Projects = () => {
+const Featured = () => {
   const data = useStaticQuery(graphql`
     query {
       projects: allMarkdownRemark(
@@ -183,7 +183,7 @@ const Projects = () => {
   const projectsToShow = showMore ? projects : firstSix;
 
   return (
-    <StyledProjectsSection>
+    <StyledProjectsSection id="featured">
       <h2 ref={revealTitle}>Featured Projects</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
@@ -254,4 +254,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Featured;

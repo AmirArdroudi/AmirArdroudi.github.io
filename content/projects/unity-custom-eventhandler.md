@@ -17,5 +17,5 @@ showInProjects: true
 
 ---
 
-A modular system for handling events based on scriptable-object and UnityEvent in unity engine.
-It becomes pretty useful in gameplay programming. Developer/Designer could hook things up in editor, this system will help you to isolate your prefabs perfectly.
+Programmed a modular system for handling events based on scriptable-object and UnityEvent in unity engine.
+Developer/Designer could hook things up in editor, which comes handy in gameplay development and will help to isolate prefabs. The idea of this project was inspired by some conferences on game development which is referenced on the github repo.

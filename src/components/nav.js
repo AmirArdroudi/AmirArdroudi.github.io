@@ -30,7 +30,7 @@ const StyledHeader = styled.header`
     css`
       height: var(--nav-scroll-height);
       transform: translateY(0px);
-      background-color: rgba(12, 9, 18, 0.75);
+      background-color: var(--navy);
       box-shadow: 0 10px 30px -10px var(--navy-shadow);
     `};
 
@@ -64,14 +64,14 @@ const StyledNav = styled.nav`
     ${({ theme }) => theme.mixins.flexCenter};
 
     a {
-      color: var(--green);
-      width: 42px;
-      height: 42px;
+      color: var(--navy);
+      width: 0;
+      height: 0;
 
       &:hover,
       &:focus {
         svg {
-          fill: var(--green-tint);
+          fill: var(--navy);
         }
       }
 
