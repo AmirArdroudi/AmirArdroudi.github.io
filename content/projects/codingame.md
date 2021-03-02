@@ -1,5 +1,5 @@
 ---
-date: '2020-11-01'
+date: '2016-11-01'
 title: 'Codingame'
 github: 'https://github.com/AmirArdroudi/Codingame'
 external: 'https://www.codingame.com/replay/518907033'

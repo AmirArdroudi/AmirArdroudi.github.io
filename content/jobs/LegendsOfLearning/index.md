@@ -3,7 +3,7 @@ date: '2019-04-01'
 title: 'Game Developer'
 company: 'Legends Of Learning'
 location: 'Washington D.C., USA'
-range: 'January 2019 - Now'
+range: 'January 2019 - Present'
 url: 'https://www.legendsoflearning.com/'
 ---
 

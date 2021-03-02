@@ -1,5 +1,5 @@
 ---
-date: '2020-12-11'
+date: '2021-01-11'
 title: 'Ariyana Game Engine'
 github: 'https://github.com/AmirArdroudi/ariyana'
 external: 'https://github.com/AmirArdroudi/ariyana#ariyana-game-engine-05'

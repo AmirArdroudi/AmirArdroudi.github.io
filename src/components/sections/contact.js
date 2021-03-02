@@ -89,10 +89,9 @@ const StyledText = styled.div`
     text-justify: auto;
     li {
       position: relative;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
       padding-left: 15px;
-      font-family: var(--font-mono);
-      font-size: 14.79px;
+      font-size: 15.79px;
 
       &:before {
         content: '▹';

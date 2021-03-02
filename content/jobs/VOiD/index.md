@@ -3,7 +3,7 @@ date: '2017-12-21'
 title: 'Game Programmer'
 company: 'VOiD'
 location: 'Tabriz, Iran'
-range: 'November 2018 - now'
+range: 'November 2018 - Present'
 url: 'https://voidgamesstudio.com/'
 ---
 
