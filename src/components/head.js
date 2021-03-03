@@ -43,6 +43,18 @@ const Head = ({ title, description, image }) => {
   return (
     <Helmet title={title} defaultTitle={seo.title} titleTemplate={`%s | ${defaultTitle}`}>
       <html lang="en" />
+      
+      <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-62FLMBF8WX"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-62FLMBF8WX');
+        </script>
+      </head>
 
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
