@@ -4,14 +4,14 @@ module.exports = {
   siteMetadata: {
     title: 'Amir Ardroudi',
     description:
-      'Brittany Chiang is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'Amir Ardroudi is a diligent and team-oriented game programmer/developer, who aspires to write clean, optimized and resource-friendly code. Building tools, programming and juicing the gameplay is right up my alley.',
     siteUrl: 'https://amirardroudi.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@AmirArdroudi',
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
         trackingId: 'G-62FLMBF8WX',
         head: true,

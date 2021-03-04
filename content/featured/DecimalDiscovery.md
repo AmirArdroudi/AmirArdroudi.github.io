@@ -11,7 +11,7 @@ company: 'Legends of Learning'
 showInProjects: true
 ---
 
-<iframe width="533" height="300" src="https://www.youtube.com/embed/pq6h-i2fPQs" frameborder="0" allow=" clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="282" src="https://www.youtube.com/embed/pq6h-i2fPQs" frameborder="0" allow=" clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --- 
 

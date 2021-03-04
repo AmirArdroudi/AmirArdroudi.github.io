@@ -2,7 +2,7 @@
 date: '2020-12-11'
 title: 'Operation-Sandwich'
 github: ''
-external: 'https://games.legendsoflearning.com/game/operation-sandwich/2494?partner=legends-public&media=video'
+external: 'https://www.legendsoflearning.com/learning-objectives/real-world-problems-with-rational-numbers-math-games/'
 tech:
   - Unity
   - C#
@@ -10,7 +10,10 @@ tech:
 company: 'Legends of Learning'
 showInProjects: true
 ---
-<iframe width="533" height="300" src="https://www.youtube.com/embed/-AQazcsPWAM"frameborder="0" allow=" clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="282" src="https://www.youtube.com/embed/toYvUEbnXSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 --- 
+
+sandwich-Operation will serve a math game that teach students how to apply mathematics in real-world problems that involve operating rational numbers. In this game you work as a new employee at SandiShop. You should deliver the recived orders and calculate the bill.
+In this project I was responsible for developing the gameplay. As It was one of our earlier games with Legends of Learning ...
