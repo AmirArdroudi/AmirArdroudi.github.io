@@ -127,6 +127,8 @@ const StyledProject = styled.div`
     flex-wrap: wrap;
     padding: 0;
     margin: 20px 0 0 0;
+    color: var(--green);
+
     list-style: none;
 
     li {

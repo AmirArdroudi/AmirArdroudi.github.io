@@ -7,6 +7,7 @@ tech:
   - Unity
   - C#
   - Webgl
+  - LegendsOfLearning
 company: 'Legends of Learning'
 showInProjects: true
 ---
@@ -14,6 +15,7 @@ showInProjects: true
 
 
 --- 
+May 2019  
 
 sandwich-Operation will serve a math game that teach students how to apply mathematics in real-world problems that involve operating rational numbers. In this game you work as a new employee at SandiShop. You should deliver the recived orders and calculate the bill.
 In this project I was responsible for developing the gameplay. As It was one of our earlier games with Legends of Learning ...

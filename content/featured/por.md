@@ -7,12 +7,16 @@ tech:
   - Unity
   - Steam
   - c#
-  - Desktop
+  - Platformer
+  - Puzzle
+
 
 company: 'VOiD'
 showInProjects: true
 ---
-
+Apr 2018 - Present
 <iframe width="500" height="282" src="https://www.youtube.com/embed/phSCBhOQzfc" frameborder="0" allow=" clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --- 
+
+Join the journey of S, a drawing boy searching for his creator and help him find his painter. Unfold the memories of your maker to uncover the mystery behind his vanishing, find your way out of a confusing maze, and ascend through the darkness in an emotional Hand-Drawn platformer puzzle adventure.

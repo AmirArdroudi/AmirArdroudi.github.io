@@ -1,11 +1,11 @@
 ---
-date: '2020-12-11'
+date: '2020-05-11'
 title: 'Ari2D-Tutorial'
 github: 'https://github.com/AmirArdroudi/Ari2D-Tutorial'
 external: ''
 tech:
   - C++
-  - BeefLanguage
+  - Beef Language
   - ECS
   - Game-Engine
 

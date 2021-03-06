@@ -34,8 +34,10 @@ const StyledText = styled.div`
       position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
+      color: var(--green);
+
       font-family: var(--font-mono);
-      font-size: var(--fz-xs);
+      font-size: 15px;
 
       &:before {
         content: '▹';
@@ -135,7 +137,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C#', 'Unity', 'C++', 'Git', 'Python', 'UE4', 'Opengl'];
+  const skills = ['C#', 'Unity', 'C/C++', 'UE4', 'Python', 'Git', 'Blueprint', 'Visual Studio', 'OpenGL', 'Jira', 'SDL2'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>

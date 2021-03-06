@@ -126,12 +126,13 @@ const StyledProject = styled.div`
     flex-grow: 1;
     flex-wrap: wrap;
     padding: 0;
+    color: var(--green);
     margin: 20px 0 0 0;
     list-style: none;
 
     li {
       font-family: var(--font-mono);
-      font-size: var(--fz-xxs);
+      font-size: var(--fz-xs);
       line-height: 1.75;
 
       &:not(:last-of-type) {
