@@ -8,7 +8,7 @@ tech:
   - C#
   - Android/IOS
 
-company: ''
+company: 'Finite Loop Interactive'
 showInProjects: true
 ---
 

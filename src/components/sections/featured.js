@@ -187,9 +187,7 @@ const Featured = () => {
     <StyledProjectsSection id="featured">
       <h2 ref={revealTitle}>Featured Projects</h2>
 
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
+     
 
       <TransitionGroup className="projects-grid">
         {projectsToShow &&
