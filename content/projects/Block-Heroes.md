@@ -4,7 +4,7 @@ title: 'Block Heroes'
 github: 'https://github.com/AmirArdroudi/blockheroes'
 external: 'https://gamejolt.com/games/blockheroes/515039'
 tech:
-  - Beef Language
+  - Beef Lang
   - Ariyana Engine
   - ECS
   - Multiplayer
@@ -14,7 +14,8 @@ company: ''
 showInProjects: true
 ---
 
-![Block Hereos logo](images/bhlogo.png)
+<img src="/images/bhlogo.png" width="265" height="160"></img>
 
 ---
-Block Heroes is an experimental game based on Tetris, built with Ariyana engine, which has online multiplayer capability and replay system (you can watch back the entire game that you played). It can be played [Block Heroes](https://gamejolt.com/games/blockheroes/515039) in GameJolt. This game is WIP
+
+Block Heroes is an experimental game based on Tetris, built with the Ariyana engine, which has online multiplayer capability and replay system (you can watch back the entire game that you played). It can be played [Block Heroes](https://gamejolt.com/games/blockheroes/515039) in GameJolt. This game is a work in progress.

@@ -10,8 +10,8 @@ company: 'Codingame'
 showInProjects: true
 ---
 
-![Code-Royal match](images/codingame.png)
+<img src="/images/codingame.png" width="265" height="160"></img>
 
 ---
 
-As a hobby I've decided to participate in [Codingame](https://www.codingame.com) AI challenges. The purpose of this exercise was to compete against other programmers in order to create a bot which will play as AI in strategic games.
+As a hobby, I've decided to participate in [Codingame](https://www.codingame.com) AI challenges. The purpose of this exercise was to compete against other programmers in order to create a bot which will play as AI in strategic games.

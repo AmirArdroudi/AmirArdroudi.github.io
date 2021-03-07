@@ -137,7 +137,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C#', 'Unity', 'C/C++', 'UE4', 'Python', 'Git', 'Blueprint', 'Visual Studio', 'Beef Language', 'Jira', 'OpenGL'];
+  const skills = ['C#', 'Unity', 'C/C++', 'UE4', 'Python', 'Git', 'Blueprint', 'Visual Studio', 'Beef Lang', 'Jira', 'OpenGL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -146,26 +146,12 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>I'm AmirAhmad Ardroudi, a game programmer/developer from Iran.</p>
-
-            <p>
-              From my childhood I loved playing video games, and that derived a passion towards
-              making them. Then, I set about building games when I was a teenager using Unity and
-              Unreal game engines. In college I decided to pursue my career as a game developer,
-              because of that, since then I have built (or worked on) eight projects.
-            </p>
-
-            <p>
-              Beside developing games, I have some experience in game engine programming and
-              architecture, such as Entity Component System (ECS) and Data Driven design.
-            </p>
-            <p>
-              Furthermore, throughout these years, I have kept a mindset of programming clean,
-              consice, resource-friendly and optimized code. Also I have a good deal of experience
-              working with teams and collaborating with game designers which had a palatable impact
-              on player experience and leads to juicing up the aformentioned projects.
-            </p>
-            <p>Here are a few technologies and languages I've been working with recently:</p>
+            I'm AmirAhmad Ardroudi, a game programmer/developer from Iran.<br></br>
+            From my childhood, I loved playing video games, and that derived a passion towards making them. Then, I set about building games when I was a teenager using Unity and Unreal game engines. In college, I decided to pursue my career as a game developer, because of that, since then I have built (or worked on) eight projects.<br></br>
+            Besides developing games, I have some experience in game engine programming and architecture, such as Entity Component System (ECS) and Data-Driven design.<br></br>
+            Furthermore, throughout these years, I have kept a mindset of programming clean, concise, resource-friendly, and optimized code. Also, I have a good deal of experience working with teams and collaborating with game designers which had a palatable impact on player experience and leads to juicing up the aforementioned projects.<br></br>
+            Here are a few technologies and languages I've been working with recently:
+                        
           </div>
 
           <ul className="skills-list">

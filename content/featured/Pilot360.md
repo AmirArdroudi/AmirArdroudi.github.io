@@ -8,16 +8,16 @@ tech:
   - Unity
   - C#
   - Webgl
-  - LegendsOfLearning
 
 company: 'Legends of Learning'
 showInProjects: true
 
 ---
-Jun 2019  
 
 <iframe width="500" height="282" src="https://www.youtube.com/embed/DhxuXCJmFrU" frameborder="0" allow=" clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --- 
+<small>Jun 2019</small>  
 
-Developed a handly platform for game/environment designers who whats to create their prototype game in VR. It mainly provide tools for editing and various gameplay mechanics. This project created in our university innovation center. I was responsible for tech lead and management also tool programming and stuff. It's still Work in progress. One of its major feature is all actions and values are serializable in this project with a reliable save/load system. [The Repo](https://github.com/Vonderbird/VR_platform) is opensource, we would be happy for any contributions 👾
+The Pilot 360 is a game that helps students to understand equal partitioning and unit iteration to understand angle and turn measure. Primarily, I developed and programmed the game and contributed in gameplay design. The challenging part was to conduct and create the mechanics related to trigonometry, the presented new obstacles and complexity gave me the opportunity to work on practical applications of these mathematical ideas.  
+This project was accepted upon the first review and overall was a very successful game in related objectives.  

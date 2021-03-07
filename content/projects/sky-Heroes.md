@@ -15,4 +15,4 @@ showInProjects: true
 
 ---
 
-Sky Heroes is a MMO strategy turn-based game which has been created with UE4. Worked on this game for two years and programmed with Blueprint (Visual scripting language) and C++. Also took on responsibility of gameplay and GUI programming. Due to the lack of funding the project has been canceled. 
+Sky Heroes is an MMO strategy turn-based game which has been created with UE4. Worked on this game for two years and programmed with Blueprint (Visual scripting language) and C++. Also took on the responsibility of gameplay and GUI programming. Due to the lack of funding the project has been canceled.

@@ -114,6 +114,8 @@ const StyledProject = styled.div`
   .project-description {
     color: var(--light-slate);
     font-size: 17px;
+    text-align: justify;
+    text-justify: inter-word;
 
     a {
       ${({ theme }) => theme.mixins.inlineLink};
@@ -159,6 +161,7 @@ const Featured = () => {
               tech
               github
               external
+              company
             }
             html
           }
@@ -193,7 +196,7 @@ const Featured = () => {
         {projectsToShow &&
           projectsToShow.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { github, external, title, tech } = frontmatter;
+            const { github, external, title, tech, company} = frontmatter;
 
             return (
               <CSSTransition
@@ -226,7 +229,9 @@ const Featured = () => {
                       </div>
 
                       <h3 className="project-title">{title}</h3>
-
+                      <div className="project-links">
+                          {(company) ? (<i><small>company: {company}</small></i>) : <br></br>}
+                      </div>
                       <div
                         className="project-description"
                         dangerouslySetInnerHTML={{ __html: html }}

@@ -5,14 +5,15 @@ github: 'https://github.com/AmirArdroudi/Ari2D-Tutorial'
 external: ''
 tech:
   - C++
-  - Beef Language
+  - Beef Lang
   - ECS
   - Game-Engine
 
 company: ''
 showInProjects: true
 ---
-![ariyana 2d sprite test](/images/ari2d.jpg)
+
+<img src="/images/ari2d.jpg" width="265" height="160"></img>
 
 ---
 

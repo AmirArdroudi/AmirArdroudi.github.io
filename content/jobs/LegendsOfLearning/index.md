@@ -8,4 +8,4 @@ url: 'https://www.legendsoflearning.com/'
 ---
 
 - Creating educational games for purpose of gamification of math and science learning experience. 
-- At present, we have built five titles with this company. The main tools that I've worked with consist of Unity, C# and the provided custom SDK.
+- At present, we have built five titles with this company. The main tools that I've worked with consist of Unity, C#, and the provided custom SDK.

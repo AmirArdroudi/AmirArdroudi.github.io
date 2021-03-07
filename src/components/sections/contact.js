@@ -160,7 +160,7 @@ const About = () => {
 
             <h3>Achievements</h3>
             <ul className="skills-list">
-              <li> Achived bronze level in  Codingame - Code Royale game <a href="https://www.codingame.com/multiplayer/bot-programming/code-royale"> [Link] </a>
+              <li> Achieved bronze level in  Codingame - Code Royale game <a href="https://www.codingame.com/multiplayer/bot-programming/code-royale"> [Link] </a>
               </li>
               <li> Two times participant of The ICPC International Collegiate Programming Contest. <a href="https://icpc.global"> [Link] </a>
               </li>
@@ -174,8 +174,8 @@ const About = () => {
 
             <h3>Hobbies</h3>
             <p>
-              I play electeric guitar in my spare time, mostly I play and listen to progressive rock/metal 🤟
-              Played a little basketball in highschool. Also of course playing video games and board games is my heroine.
+              I play electric guitar in my spare time, mostly I play and listen to progressive rock/metal 🤟
+              Played a little basketball in high school. Also of course playing video games and board games is my heroine.
             </p>
 
 

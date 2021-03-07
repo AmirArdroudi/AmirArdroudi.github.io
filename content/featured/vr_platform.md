@@ -11,12 +11,13 @@ tech:
  
   
 
-company: ''
 showInProjects: true
 ---
-Aug 2020  
+
+  
 <iframe width="500" height="282" src="https://www.youtube.com/embed/OeSEkeHIHRg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+<small>Aug 2020</small>
 
-Developed a handly platform for game/environment designers who whats to create their prototype game in VR. It mainly provide tools for editing and various gameplay mechanics. This project created in our university innovation center. I was responsible for tech lead and management also tool programming and stuff. It's still Work in progress. One of its major feature is all actions and values are serializable in this project with a reliable save/load system. [The Repo](https://github.com/Vonderbird/VR_platform) is opensource, we would be happy for any contributions 👾
+Developed a handy platform for game/environment designers who wants to create their prototype game on a VR platform. It mainly provides tools for editing and various gameplay mechanics. This project is created in our university innovation center. I was responsible for tech lead and management, also tool programming. This is still a work in progress. One of its major features is the ability to serialize/deserialize all actions and parameters that are not serializable by default, with a reliable save/load system. You can find the open source [repo](https://github.com/Vonderbird/VR_platform) on Github, all contributions are welcomed. 👾
