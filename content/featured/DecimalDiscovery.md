@@ -17,5 +17,10 @@ showInProjects: true
 --- 
 <small>Jan 2021</small>
 
-The Shapey Tower was an attempt at gamification of shapes and their properties. This was also an educational game whose main objective was to understand various qualities of shapes in form of mathematical objects. The gameplay idea was inspired by matching games.
-My part was to develop and program the game. As I was an experienced developer in this field I tried to bring optimization and boosting ideas to this project which led to an enhanced game feel and very efficient resource management. All of this encouraged me to watch a lot of conferences and read articles about juicing up the game from[ GDC (Game Development Conferences)](https://gdconf.com/) as well as other sources. This was a very enjoyable journey because I always try to stay up to date on new technologies and best practices used by industry developers.
+In Decimal Discovery, Players enter the world of Barlingons and take control of an abandoned spaceship which belongs to humans. Players will fly the ship through 4 different planets of addition, subtraction, multiplication, and division, in which they will learn about decimal numbers and how to add, subtract, multiply, and divide them, in order to disintegrate the obstacles in their way and reach earth to meet humans. Students will learn all about decimal numbers with interactive tutorials and fun and engaging gameplay, and by the time that the journey is over, they will know all they need to know about Arithmetic with Decimals.
+
+**My responsbilities in this game were:**
+- Creating a designer friendly event system handler
+- Using Miro for collaborating online with other team members
+- Working with new LOL SDK to handle save/load system 
+- Developing a wrapper around DoTween third-party

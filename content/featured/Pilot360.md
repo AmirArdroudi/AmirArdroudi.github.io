@@ -7,7 +7,7 @@ external: 'https://games.legendsoflearning.com/game/pilot-360/2515?partner=legen
 tech:
   - Unity
   - C#
-  - Webgl
+  - WebGL
 
 company: 'Legends of Learning'
 showInProjects: true

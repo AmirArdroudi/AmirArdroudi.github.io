@@ -18,4 +18,4 @@ showInProjects: true
 
 ---
 
-Block Heroes is an experimental game based on Tetris, built with the Ariyana engine, which has online multiplayer capability and replay system (you can watch back the entire game that you played). It can be played [Block Heroes](https://gamejolt.com/games/blockheroes/515039) in GameJolt. This game is a work in progress.
+Block Heroes is an experimental game based on Tetris, built with the Ariyana engine, which has online multiplayer capability and replay system. It can be played [Block Heroes](https://gamejolt.com/games/blockheroes/515039) in GameJolt. This game is a work in progress.

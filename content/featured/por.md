@@ -20,4 +20,16 @@ showInProjects: true
 --- 
 <small>Apr 2018 - Present</small>
 
-Join the journey of S, a drawing boy searching for his creator and help him find his painter. Unfold the memories of your maker to uncover the mystery behind his vanishing, find your way out of a confusing maze, and ascend through the darkness in an emotional Hand-Drawn platformer puzzle adventure.
+Pursuit of Redemption is a story-driven, puzzle platformer 2D game, in which the players take control of a drawing boy called S, and join him in his adventure of finding and saving his painter.
+The game revolves around S's search for creator and takes players to multiple places with various gameplay styles.
+The story is told with cinematic animated cutscenes with voice acting, and the gameplay consists of different parts such as, Puzzle levels in which players solve color combination puzzles to uncover memories of S's painter , Point and Click Levels, Top-down Maze levels, and Platformer Jetpack levels
+The game will be released on Steam in 2021.
+
+
+**My responsbilities in this game were:**
+- Creating the jetpack levels' mechanics
+- Switching the game's target platfrom from mobile to PC
+- Working with Steam SDK to implement the Steam Achivements and ...
+- Optimizing and refactoring the code-base
+- Refactoring the game's visuals and juicing the game up
+- Jetpack levels' environment design

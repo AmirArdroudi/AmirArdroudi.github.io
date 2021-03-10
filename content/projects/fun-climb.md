@@ -16,4 +16,5 @@ showInProjects: true
 
 ---
 
-Sky Heroes is an MMO strategy turn-based game which has been created with UE4. Worked on this game for two years and programmed with Blueprint (Visual scripting language) and C++. Also took on the responsibility of gameplay and GUI programming. Due to the lack of funding the project has been canceled.
+Fun climb is an arcade game, developed by small team of our university students. It's a fun endless game that consist of various skins, upgrades ,and unlockables. In fun climb player control the charecter with gyroscope and climb using color-shifting buttons. A few of my friends and I presented this game as our bachelor degree's project.
+ 

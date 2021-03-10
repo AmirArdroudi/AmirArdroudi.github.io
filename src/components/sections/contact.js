@@ -136,9 +136,9 @@ const About = () => {
 
   const confs =
     [
-      'Speaker at Software Freedom Day conference (Opensource game development tools and engines) at Tabriz University, Iran - 2017',
-      'Speaker at AR/VR convention at Tabriz University Innovation Center, Iran - 2019',
-      'Presenter at AR/VR Workshop at Tabriz University Innovation Center, Iran - 2019',
+      'Lecturer at Software Freedom Day conference (Opensource game development tools and engines) at Tabriz University, Iran - 2017',
+      'Lecturer at AR/VR convention at Tabriz University Innovation Center, Iran - 2019',
+      'Tutor at AR/VR Workshop at Tabriz University Innovation Center, Iran - 2019',
     ];
   const achivs =
     [
@@ -174,8 +174,8 @@ const About = () => {
 
             <h3>Hobbies</h3>
             <p>
-              I play electric guitar in my spare time, mostly I play and listen to progressive rock/metal 🤟
-              Played a little basketball in high school. Also of course playing video games and board games is my heroine.
+              I play electric guitar in my spare time. I mostly play and listen to progressive rock/metal. 🤟
+              I Played a little basketball in high school. Also of course playing video games and board games is my main passion.
             </p>
 
 

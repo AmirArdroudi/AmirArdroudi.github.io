@@ -7,6 +7,7 @@ tech:
   - Unity
   - VR
   - HTC Vive
+  - SteamVR
   - C#
  
   
@@ -20,4 +21,13 @@ showInProjects: true
 ---
 <small>Aug 2020</small>
 
-Developed a handy platform for game/environment designers who wants to create their prototype game on a VR platform. It mainly provides tools for editing and various gameplay mechanics. This project is created in our university innovation center. I was responsible for tech lead and management, also tool programming. This is still a work in progress. One of its major features is the ability to serialize/deserialize all actions and parameters that are not serializable by default, with a reliable save/load system. You can find the open source [repo](https://github.com/Vonderbird/VR_platform) on Github, all contributions are welcomed. 👾
+Developed a handy platform for game/environment designers who want to create their prototype game on a VR platform. It mainly provides tools for editing and creating various gameplay mechanics. This project is created in our university's innovation center. This is still a work in progress.
+
+
+**My responsbilities in this game were:**
+- Tool programming and tech-lead management
+- serializing and deserializing all actions and parameters that are not serializable by default
+- creating a reliable save/load system
+
+
+You can find the open source [repo](https://github.com/Vonderbird/VR_platform) on Github. All contributions are welcome👾
