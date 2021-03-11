@@ -1,5 +1,5 @@
 ---
-date: '2019-04-01'
+date: '2019-02-01'
 title: 'Game Developer'
 company: 'Legends Of Learning'
 location: 'Washington D.C., USA'

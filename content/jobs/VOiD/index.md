@@ -1,5 +1,5 @@
 ---
-date: '2020-12-21'
+date: '2018-02-21'
 title: 'Game Programmer'
 company: 'VOiD'
 location: 'Tabriz, Iran'
