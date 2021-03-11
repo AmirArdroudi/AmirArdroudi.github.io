@@ -137,7 +137,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C#', 'Unity', 'C/C++', 'UE4', 'Python', 'Git', 'Blueprint', 'Visual Studio', 'Beef Lang', 'Jira', 'OpenGL'];
+  const skills = ['C#', 'Unity', 'C/C++', 'UE4', 'Python', 'Git', 'Beef Lang', 'Visual Studio', 'OpenGL', 'Jira'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -146,7 +146,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            I'm AmirAhmad Ardroudi, I am 23, and I'm a game programmer/developer.<br></br>
+            I'm AmirAhmad Ardroudi, I am 23, and I'm a passionate game programmer/developer.<br></br>
             I loved playing video games from the day I can remember, and that derived a passion towards making them. I set about building games when I was a teenager using Unity and Unreal game engines, and In college, I decided to pursue my career as a game developer. From that day on, I have been a part of around 10 projects.<br></br>
             Besides developing games, I have some experience in game engine programming and architecture, such as Entity Component System (ECS) and Data-Driven design.<br></br>
             Furthermore, throughout these years, I have always had the mindset of clean, concise, resource-friendly, and optimized programming. Also, I have a good deal of experience working with teams and collaborating with game designers. Collaborating with designers had a palatable impact on player experience and the overall juicing and quality of our projects.<br></br>

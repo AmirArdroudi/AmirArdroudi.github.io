@@ -7,6 +7,8 @@ range: 'November 2018 - Present'
 url: 'https://voidgamesstudio.com/'
 ---
 
-- I joined VOiD, back in 2018 as a programmer, to work on a story-drivern puzzle platformer adventure called Pursuit of Redemption.
-- I started working on the Platformer (JetPack Levels) part of the game, and handled the mechanics and environment design of these levels.
-- Moreover, I sharpened my knowdlege around the overall game feel, and put my knwoledge to use by juicing up the game, adding post-processing, camera shakes and cinematic movemenets, and customizable easing/tweening functions to it.    
+- Joined VOiD, back in 2018 as a programmer, to work on a story-driven puzzle platformer adventure called Pursuit of Redemption.
+- Work on the Platformer (JetPack Levels) part of the game, and handled the mechanics and environment design of these levels.
+- Work with a small core team of engineer, designer, and animator
+- Contribute ideas in a collaborative, supportive team environment
+- Optimize and debug the Pursuit of Redemption's codebase    

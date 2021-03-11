@@ -58,8 +58,7 @@ const Hero = () => {
   const four = (
     <p>
       I'm a diligent and team-oriented game programmer/developer, who aspires to write clean,
-      optimized, and resource-friendly code. Building tools, programming, and 'juicing' the gameplay
-      is right up my alley. Currently, I am working on educational math learning games for the United States based company, {' '}
+      optimized, and resource-friendly code. Building tools, programming, and 'juicing' the gameplay is right up my alley. Currently, I am working on educational math learning games for the United States based company, {' '}
       <a href="https://www.legendsoflearning.com">Legends of Learning</a>.
     </p>
   );
