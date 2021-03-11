@@ -23,7 +23,7 @@ showInProjects: true
 The pursuit of Redemption is a story-driven, puzzle, platformer 2D game, in which the players take control of a drawing boy called S, and join him in his adventure of finding and saving his painter.
 The game revolves around S's search for his creator and takes players to multiple places with various gameplay styles.
 The story is told with cinematic animated cutscenes with voice acting, and the gameplay consists of different parts such as, Puzzle levels in which players solve color combination puzzles to uncover memories of S's painter, Point and Click Levels, Top-down Maze levels, and Platformer Jetpack levels
-The game will be [released on Steam](https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/) in 2021.
+The game will be [released on Steam](https://store.steampowered.com/app/1313630/) in 2021.
 
 
 **My responsibilities in this game were:**
