@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Amir Ardroudi',
     description:
-      'Amir Ardroudi is a diligent and team-oriented game programmer/developer, who aspires to write clean, optimized and resource-friendly code. Building tools, programming and juicing the gameplay is right up my alley.',
+      'AmirAhmad Ardroudi is a diligent and team-oriented game programmer/developer, who aspires to write clean, optimized and resource-friendly code. Building tools, programming and juicing the gameplay is right up my alley.',
     siteUrl: 'https://amirardroudi.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@AmirArdroudi',
