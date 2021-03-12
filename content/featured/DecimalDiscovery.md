@@ -22,6 +22,6 @@ In Decimal Discovery, Players enter the world of Barlingons and take control of 
 **My responsibilities in this game were:**
 - Designing a flexible game architecture based on scriptable objects and Unityevent.  
 - Creating a designer-friendly event system handler
-- Implementing a customizable designer-friendly easing/tweening wrapper for [DoTween library](http://dotween.demigiant.com/) in unity
+- Implementing a customizable designer-friendly [easing/tweening wrapper](https://github.com/AmirArdroudi/MyDoTweenWrapper) for DoTween library in unity
 - Working with new LOL SDK to handle save/load system 
 - Using [Miro](https://miro.com/) for collaborating online with other team members
