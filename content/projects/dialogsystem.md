@@ -1,6 +1,6 @@
 ---
-date: '2021-03-01'
-title: 'Dialog System based on ScriptableObejects and my custom event handler'
+date: '2021-02-01'
+title: 'A Dialog System in Unity'
 github: 'https://github.com/AmirArdroudi/Dialog-System'
 external: ''
 tech:

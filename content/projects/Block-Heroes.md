@@ -1,12 +1,11 @@
 ---
-date: '2021-01-02'
-title: 'Block Heroes (A multiplayer Tetris-clone Game)'
+date: '2020-08-02'
+title: 'Block Heroes'
 github: 'https://github.com/AmirArdroudi/blockheroes'
 external: 'https://gamejolt.com/games/blockheroes/515039'
 tech:
   - Beef Lang
   - Ariyana Engine
-  - ECS
   - Multiplayer
   - Android/PC
 
@@ -14,7 +13,7 @@ company: ''
 showInProjects: true
 ---
 
-<img src="/images/bhp.jpg" width="265" height="160"></img>
+<img src="/images/bhgameplay.jpg" width="265" height="160"></img>
 
 ---
 

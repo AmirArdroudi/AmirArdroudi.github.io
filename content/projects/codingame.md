@@ -1,8 +1,8 @@
 ---
-date: '2016-11-01'
+date: '2018-11-01'
 title: 'Codingame'
 github: 'https://github.com/AmirArdroudi/Codingame'
-external: 'https://www.codingame.com/replay/518907033'
+external: 'https://www.codingame.com/replay/533657057'
 tech:
   - C++
   - AI
@@ -14,4 +14,4 @@ showInProjects: true
 
 ---
 
-As a hobby, I've decided to participate in [Codingame](https://www.codingame.com) AI challenges. The purpose of this exercise was  to create a stategic game AI and compete against other programmers. 
+As a hobby, I've decided to participate in [Codingame](https://www.codingame.com) AI challenges. The purpose of this exercise was to create a stategic game AI and compete against other programmers. 

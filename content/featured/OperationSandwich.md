@@ -2,7 +2,7 @@
 date: '2020-12-11'
 title: 'Operation-Sandwich'
 github: ''
-external: 'https://www.legendsoflearning.com/learning-objectives/real-world-problems-with-rational-numbers-math-games/'
+external: 'https://games.legendsoflearning.com/game/operation-sandwich/2494?partner=legends-public&media=video'
 tech:
   - Unity
   - C#
