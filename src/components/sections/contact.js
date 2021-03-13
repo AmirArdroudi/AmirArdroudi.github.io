@@ -175,7 +175,7 @@ const About = () => {
             <h3>Hobbies</h3>
             <p>
               I play electric guitar in my spare time. I mostly play and listen to progressive rock/metal. 🤟
-              I Played a little basketball in high school. Also of course playing video games and board games is my main passion.
+              I Played a little basketball in high school. Also of course playing video games (big fan of management simulation, city-building, RTS, and ...) and board games is my main passion.
             </p>
 
 

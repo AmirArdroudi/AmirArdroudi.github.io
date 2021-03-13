@@ -10,13 +10,13 @@ const GlobalStyle = createGlobalStyle`
     --dark-navy: #FBF7F6;
     --navy: #FBF7F6;
     --light-navy: #FBF7F6; // description bg color
-    --lightest-navy: #D94B05; //line color
+    --lightest-navy: #a1061e; //line color
     --navy-shadow: rgba(52, 43, 62, 0.95);
     --slate: #222020;
     --light-slate: #484d5c;
     --lightest-slate: #fffff;
     --white: #e6f1ff;
-    --green: #D94B05;
+    --green: #a1061e;
     --green-tint: rgb(251, 144, 0, 0.5);
     --trans : #fffff
 

@@ -1,5 +1,5 @@
 ---
-date: '2017-03-27'
+date: '2021-03-27'
 title: 'Sky Heroes'
 github: ''
 external: 'https://medium.com/stories-from-upstatement/integrating-algolia-search-with-wordpress-multisite-e2dea3ed449c'
