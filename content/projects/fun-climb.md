@@ -1,5 +1,5 @@
 ---
-date: '2020-12-11'
+date: '2020-12-00'
 title: 'Fun Climb'
 github: ''
 external: ''
@@ -16,5 +16,5 @@ showInProjects: true
 
 ---
 
-Fun Climb is an arcade mobile game, developed by our small team of students in our University (University of Tabriz). It's a fun endless game that consists of various skins, upgrades, and unlockables. In this game, players control the character with gyroscope and climb using color-shifting buttons. A few of my friends and I presented this game as our bachelor degree's project.
+Fun Climb is an arcade mobile game, developed by our small team of students in our university (University of Tabriz). It's a fun endless game that consists of various skins, upgrades, and unlockables. In this game, players control the character with gyroscope and climb using color-shifting buttons. A few of my friends and I presented this game as our bachelor degree's project.
  
