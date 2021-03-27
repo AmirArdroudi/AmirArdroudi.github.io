@@ -6,7 +6,7 @@ external: 'https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/'
 tech:
   - Unity
   - Steam
-  - c#
+  - Indie
   - Platformer
   - Puzzle
 

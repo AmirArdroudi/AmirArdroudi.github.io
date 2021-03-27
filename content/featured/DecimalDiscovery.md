@@ -2,11 +2,13 @@
 date: '2021-01-11'
 title: 'Decimal Discovery'
 github: ''
-external: 'https://www.legendsoflearning.com/learning-objectives/comparison-of-fractions-math-games/'
+external: 'https://www.legendsoflearning.com/learning-objectives/arithmetic-with-decimals-fluency-math-games/'
 tech:
   - Unity
-  - C#
   - Webgl
+  - Educational
+  - Math
+  - Serious game
 
 company: 'Legends of Learning'
 showInProjects: true

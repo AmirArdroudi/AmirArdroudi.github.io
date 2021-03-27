@@ -6,8 +6,8 @@ external: ''
 tech:
   - Unity
   - VR
-  - HTC Vive
   - SteamVR
+  - Tools
   - C#
  
   
@@ -30,4 +30,4 @@ Developed a handy platform for game/environment designers who want to create the
 - Creating a reliable save/load system
 
 
-You can find the open source [repo](https://github.com/Vonderbird/VR_platform) on Github. All contributions are welcome👾
+You can find the open source [repo](https://github.com/Vonderbird/VR_platform) on Github. All contributions are welcomed👾

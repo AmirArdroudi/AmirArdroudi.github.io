@@ -5,8 +5,10 @@ github: ''
 external: 'https://games.legendsoflearning.com/game/operation-sandwich/2494?partner=legends-public&media=video'
 tech:
   - Unity
-  - C#
   - Webgl
+  - Educational
+  - Math
+  - Serious game
   
 company: 'Legends of Learning'
 
