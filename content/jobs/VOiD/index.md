@@ -1,6 +1,6 @@
 ---
 date: '2018-02-21'
-title: 'Game Programmer'
+title: 'Game Programmer, Designer'
 company: 'VOiD'
 location: 'Tabriz, Iran'
 range: 'November 2018 - Present'
