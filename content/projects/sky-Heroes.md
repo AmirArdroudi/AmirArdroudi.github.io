@@ -2,13 +2,13 @@
 date: '2017-03-27'
 title: 'Sky Heroes'
 github: ''
-external: ''
+external: 'https://twitter.com/skyheroesgame'
 tech:
   - UE4
   - Turn-based
   - Strategy
   - Online Multiplayer
-company: 'Plankton'
+company: 'Plankton Games'
 showInProjects: true
 ---
 <iframe width="265" height="160" src="https://www.youtube.com/embed/mcGt3sNs4Hk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
