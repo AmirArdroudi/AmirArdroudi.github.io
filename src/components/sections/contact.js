@@ -159,7 +159,9 @@ const About = () => {
             <p></p>
 
             <h3>Achievements</h3>
-            <ul className="skills-list">
+            <ul className="skills-list">.
+              <li> Co-founder of University of Tabriz's Innovation center's Game Lab 
+              </li>
               <li> Achieved bronze level in  Codingame - Code Royale game <a href="https://www.codingame.com/multiplayer/bot-programming/code-royale"> [Link] </a>
               </li>
               <li> Two times participant of The ICPC International Collegiate Programming Contest. <a href="https://icpc.global"> [Link] </a>

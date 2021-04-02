@@ -24,7 +24,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(3, minmax(140px, 200px));
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -136,8 +136,9 @@ const About = () => {
   useEffect(() => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
+  
 
-  const skills = ['C#', 'Unity', 'C/C++', 'UE4', 'Python', 'Git', 'Beef Lang', 'Visual Studio', 'OpenGL', 'Jira'];
+  const skills = ['C#', 'Unity', 'Dev-Ops', 'C/C++', 'Visual Studio', 'Git', 'Beef Lang', 'Unreal Engine', 'Jira', 'Blueprint(UE4)', 'OpenGL', 'Project Management', 'Python', 'SDL2', 'Level Design'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>

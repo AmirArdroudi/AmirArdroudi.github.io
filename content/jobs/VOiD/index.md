@@ -7,8 +7,10 @@ range: 'November 2018 - Present'
 url: 'https://voidgamesstudio.com/'
 ---
 
-- Joined VOiD, back in 2018 as a programmer, to work on a story-driven puzzle platformer adventure called Pursuit of Redemption.
-- Work on the Platformer (JetPack Levels) part of the game, and handled the mechanics and environment design of these levels.
-- Work with a small core team of engineer, designer, and animator
-- Contribute ideas in a collaborative, supportive team environment
+- Joined VOiD, back in 2018 as a Unity developer, to work on [Pursuit of Redemption](https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/).
+- Work with a small core team of programmers, designer, and animator
 - Optimize and debug the Pursuit of Redemption's codebase    
+- Design and implement mechanics, and environments of the Platformer (JetPack Levels) parts
+- Working with Steam SDK to implement the Steam Achievements
+- Manager the Dev-Ops part of the project
+

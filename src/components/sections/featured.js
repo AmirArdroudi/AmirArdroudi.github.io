@@ -161,6 +161,7 @@ const Featured = () => {
               tech
               github
               external
+              zap
               company
             }
             html
@@ -196,7 +197,7 @@ const Featured = () => {
         {projectsToShow &&
           projectsToShow.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { github, external, title, tech, company} = frontmatter;
+            const { github, external, zap, title, tech, company} = frontmatter;
 
             return (
               <CSSTransition
@@ -223,6 +224,11 @@ const Featured = () => {
                           {external && (
                             <a href={external} aria-label="External Link" className="external">
                               <Icon name="External" />
+                            </a>
+                          )}
+                          {zap && (
+                            <a href={zap} aria-label="Zap Link">
+                              <Icon name="Zap" />
                             </a>
                           )}
                         </div>

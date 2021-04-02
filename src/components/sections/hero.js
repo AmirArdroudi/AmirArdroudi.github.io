@@ -69,7 +69,7 @@ const Hero = () => {
       {' '}&nbsp;&nbsp;
 
       <a href={`mailto:${email}`} className="email-link">
-        <Icon name="Zap" />
+        <Icon name="Codepen" />
       </a>
       
     </div>

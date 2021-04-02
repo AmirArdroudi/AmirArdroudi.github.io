@@ -1,8 +1,8 @@
 ---
 date: '2021-11-01'
 title: 'Pursuit of Redemption'
-github: 'https://voidgamesstudio.com/'
-external: 'https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/'
+external: 'https://voidgamesstudio.com/'
+zap: https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/
 tech:
   - Unity
   - Steam
@@ -27,9 +27,8 @@ The game will be [released on Steam](https://store.steampowered.com/app/1313630/
 
 
 **My responsibilities in this game were:**
-- Creating the jetpack levels' mechanics
-- Optimizing and refactoring the codebase
+- Designing and implementing the mechanics of jetpack levels
+- Designing the environment of [Jetpack](https://twitter.com/AmirArdroudi/status/1241473551254851584) and [Maze](https://cdn.akamai.steamstatic.com/steam/apps/1313630/ss_423dfe38601a4b675b9af549ff1390c200fe44cc.600x338.jpg?t=1610320000) levels
 - Switching the game's target platform from mobile to PC
-- Working with Steam SDK to implement the Steam Achievements
-- Designing Jetpack levels' environment 
+
 - Juicing up the game, adding post-processing, and camera shakes

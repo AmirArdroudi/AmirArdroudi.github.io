@@ -16,5 +16,5 @@ showInProjects: true
 
 ---
 
-Fun Climb is an arcade mobile game, developed by our small team of students in our university (University of Tabriz). I mostly develop the gameplay and mechanics of the game. It's a fun endless game that consists of various skins, upgrades, and unlockables. In this game, players control the character with gyroscope and climb using color-shifting buttons. A few of my friends and I presented this game as our bachelor degree's project.
+Fun Climb is an arcade mobile game, developed by our small team of students in our university (University of Tabriz). It's a fun endless game that consists of various skins, upgrades, and unlockables. I was responsiple for programming the gameplay, GUI of the game.I've also implemented the Firebase integration for gathering and analyzing. In this game, players control the character with gyroscope and climb using color-shifting buttons. A few of my friends and I presented this game as our bachelor degree's project.
  
