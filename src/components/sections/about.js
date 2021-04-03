@@ -138,7 +138,10 @@ const About = () => {
   }, []);
   
 
-  const skills = ['C#', 'Unity', 'Dev-Ops', 'C/C++', 'Visual Studio', 'Git', 'Beef Lang', 'Unreal Engine', 'Jira', 'Blueprint(UE4)', 'OpenGL', 'Project Management', 'Python', 'SDL2', 'Level Design'];
+  const skills = ['C#', 'Unity', 'Visual Studio',
+                  'C/C++', 'Unreal Engine', 'Git',
+                  'Beef Lang', 'OpenGL', 'Jira',
+                  'Blueprint(UE4)', 'SDL2', 'Miro'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -147,9 +150,16 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            I am 23. I loved playing video games from the day I can remember, and that derived a passion towards making them. I set about building games when I was a teenager using Unity and Unreal game engines, and In college, I decided to pursue my career as a game developer. From that day on, I have been a part of around 10 projects.<br></br>
-            Besides developing games, I have some experience in game engine programming and architecture, such as Entity Component System (ECS) and Data-Driven design.<br></br>
-            Furthermore, throughout these years, I have always had the mindset of clean, concise, resource-friendly, and optimized programming. Also, I have a good deal of experience working with teams and collaborating with game designers. Collaborating with designers had a palatable impact on player experience and the overall juiciness and quality of our projects.<br></br>
+            I am 23 years old. I loved playing video games from the day I can remember, and that derived a passion towards making them.
+            I set about building games when I was a teenager using <b>Unity</b> and <b>Unreal</b> game engines, and In college, I decided to pursue my career as a game developer. 
+            From that day on, I have been a part of around 10 projects.<br></br>
+
+            During these projects taking on roles such as <b>environment and level designer</b>, and <b>product manager</b> in addition to programming.
+            Also, I have a good deal of experience in product management and working on teams of up to five. <br></br>
+
+            Besides developing games, I have some experience in <b>game engine programming</b> and architecture, such as Entity Component System (ECS) and Data-Driven design.<br></br>
+            I have always had the mindset of clean, concise, resource-friendly, and optimized programming. 
+
             Here are a few technologies and languages I've been working with recently:
                         
           </div>

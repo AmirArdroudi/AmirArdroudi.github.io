@@ -1,6 +1,6 @@
 ---
 date: '2019-02-01'
-title: 'Game Developer, Project Manager'
+title: 'Game Developer, Product Manager'
 company: 'Legends Of Learning'
 location: 'Washington D.C., USA'
 range: 'January 2019 - Present'

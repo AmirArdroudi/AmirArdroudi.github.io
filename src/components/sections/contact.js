@@ -138,7 +138,7 @@ const About = () => {
     [
       'Lecturer at Software Freedom Day conference (Opensource game development tools and engines) at Tabriz University, Iran - 2017',
       'Lecturer at AR/VR convention at Tabriz University Innovation Center, Iran - 2019',
-      'Tutor at AR/VR Workshop at Tabriz University Innovation Center, Iran - 2019',
+      'Tutor at AR/VR Game Development Workshop at Tabriz University Innovation Center, Iran - 2019',
     ];
   const achivs =
     [
