@@ -155,7 +155,7 @@ const About = () => {
             From that day on, I have been a part of around 10 projects.<br></br>
 
             During these projects taking on roles such as <b>environment and level designer</b>, and <b>product manager</b> in addition to programming.
-            Also, I have a good deal of experience in product management and working on teams of up to five. <br></br>
+            Also, I have a good deal of experience in working on teams of up to four. <br></br>
 
             Besides developing games, I have some experience in <b>game engine programming</b> and architecture, such as Entity Component System (ECS) and Data-Driven design.<br></br>
             I have always had the mindset of clean, concise, resource-friendly, and optimized programming. 
