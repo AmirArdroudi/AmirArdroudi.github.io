@@ -7,16 +7,16 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
-    --dark-navy: #FBF7F6;
-    --navy: #FBF7F6;
-    --light-navy: #FBF7F6; // description bg color
-    --lightest-navy: #a1061e; //line color
+    --dark-navy: #1E1E1E;
+    --navy: #1E1E1E;
+    --light-navy: #1E1E1E; // description bg color
+    --lightest-navy: #671192; //line color
     --navy-shadow: rgba(52, 43, 62, 0.95);
     --slate: #222020;
     --light-slate: #484d5c;
     --lightest-slate: #fffff;
-    --white: #e6f1ff;
-    --green: #a1061e;
+    --white: #333333;
+    --green: #671192;
     --green-tint: rgb(251, 144, 0, 0.5);
     --trans : #fffff
 
