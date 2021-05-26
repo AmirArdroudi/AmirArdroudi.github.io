@@ -7,18 +7,18 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
-    --dark-navy: #1E1E1E;
-    --navy: #1E1E1E;
-    --light-navy: #1E1E1E; // description bg color
-    --lightest-navy: #671192; //line color
-    --navy-shadow: rgba(52, 43, 62, 0.95);
-    --slate: #222020;
-    --light-slate: #484d5c;
-    --lightest-slate: #fffff;
-    --white: #333333;
-    --green: #671192;
-    --green-tint: rgb(251, 144, 0, 0.5);
-    --trans : #fffff
+    --dark-navy: #121212;
+    --navy: #121212;
+    --light-navy: #141414; // description bg color
+    --lightest-navy: #00CF65; //line color
+    --navy-shadow: rgb(0, 207, 101, 0.1); // below card and navbar shadow
+    --slate: #C5C5C5; //texts color
+    --light-slate: #C5C5C5; //side lines and in card text
+    --lightest-slate: #C5C5C5; // card headline text and navbar text
+    --white: #00CF65;
+    --green: #00CF65;
+    --green-tint: rgb(0, 207, 101, 0.1);
+    --trans : #00CF65
 
     --font-sans: 'Calibre', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
