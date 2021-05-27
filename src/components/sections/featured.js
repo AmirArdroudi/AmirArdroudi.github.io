@@ -83,7 +83,7 @@ const StyledProject = styled.div`
       display: flex;
       align-items: center;
       margin-right: -10px;
-      color: var(--light-slate);
+      color: var(--green);
 
       a {
         ${({ theme }) => theme.mixins.flexCenter};
@@ -107,7 +107,7 @@ const StyledProject = styled.div`
 
   .project-title {
     margin: 0 0 10px;
-    color: var(--lightest-slate);
+    color: var(--green);
     font-size: var(--fz-xxl);
   }
 
