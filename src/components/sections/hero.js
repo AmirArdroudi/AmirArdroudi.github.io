@@ -54,11 +54,12 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">AmirAhmad Ardroudi</h2>;
-  const three = <h3 className="medium-heading">I am a Game Programmer</h3>;
+  const three = <h3 className="medium-heading">I am a Game Developer</h3>;
   const four = (
     <p>
-      I'm a diligent, passionate, and team-oriented game programmer/developer. Building tools, gameplay programming, and 'juicing' the gameplay is right up my alley. Currently, I am working on educational math learning games for the United States based company, {' '}
-      <a href="https://www.legendsoflearning.com">Legends of Learning</a>.
+      I'm a diligent, passionate, and team-oriented game programmer/developer. Building tools, gameplay programming, polishing the game, and bug fixing are right up my alley.
+      {/* I am working on educational math learning games for the United States based company, {' '}
+      <a href="https://www.legendsoflearning.com">Legends of Learning</a>. */}
     </p>
   );
   const five = (

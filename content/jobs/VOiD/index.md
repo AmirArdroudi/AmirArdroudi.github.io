@@ -1,15 +1,16 @@
 ---
 date: '2018-02-21'
-title: 'Game Programmer, Designer'
-company: 'VOiD'
+title: 'Unity Developer'
+company: 'VOiD Game Studio'
 location: 'Tabriz, Iran'
-range: 'November 2018 - Present'
+range: 'November 2018 - Dec 2021'
 url: 'https://voidgamesstudio.com/'
 ---
 
-- Joined VOiD, back in 2018 as a Unity developer, to work on [Pursuit of Redemption](https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/).
-- Work with a small core team of programmer, designer, artist,and animator
-- Optimize and debug the game's codebase    
-- Design and implement mechanics, and environments of platformer levels (JetPack Levels)
-- Create and manage automation tools for CI/CD
+- Joined VOiD, back in 2018 as a Unity developer to work on [Pursuit of Redemption](https://store.steampowered.com/app/1313630/Pursuit_of_Redemption/).
+- Worked with a small core team of programmers, designers, artists, and animators
+- Maintained and refactored the codebase.    
+- implemented localization system
+- Designed and implemented mechanics, and environments of the platformer levels
+- Implemented tools such as,in‐game CLI for debugging and testing purposes
 

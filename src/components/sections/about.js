@@ -138,10 +138,10 @@ const About = () => {
   }, []);
   
 
-  const skills = ['C#', 'Unity', 'Visual Studio',
-                  'C/C++', 'Unreal Engine', 'Git',
-                  'Beef Lang', 'OpenGL', 'Jira',
-                  'Blueprint(UE4)', 'SDL2', 'Miro'];
+  const skills = ['C#', 'Unity', 'SteamVR','ARKit',
+                  'C/C++', 'Git',
+                  'Python', 'Jira', 'Swift',
+                  'Visual Studio', 'Agile Development'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -150,12 +150,12 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            I am 23 years old. I loved playing video games from the day I can remember, and that derived a passion towards making them.
-            I set about building games when I was a teenager using <b>Unity</b> and <b>Unreal</b> game engines, and In college, I decided to pursue my career as a game developer. 
-            From that day on, I have been a part of around 10 projects.<br></br>
+            I was born in 1997. I loved playing video games from the day I can remember, which derived into a passion for making them.
+            I set about building games when I was a teenager using <b>Unity</b> game engine, and In college, I decided to pursue my career as a game developer. 
+            I have been a part of around ten projects from that day on.<br></br>
 
             During these projects taking on roles such as <b>environment and level designer</b>, and <b>product manager</b> in addition to programming.
-            Also, I have a good deal of experience in working on teams of up to four. <br></br>
+            Also, I have a good deal of experience working on teams of up to four. <br></br>
 
             Besides developing games, I have some experience in <b>game engine programming</b> and architecture, such as Entity Component System (ECS) and Data-Driven design.<br></br>
             I have always had the mindset of clean, concise, resource-friendly, and optimized programming. 
