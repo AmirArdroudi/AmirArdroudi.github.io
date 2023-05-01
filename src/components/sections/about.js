@@ -138,10 +138,10 @@ const About = () => {
   }, []);
   
 
-  const skills = ['C#', 'Unity', 'SteamVR','ARKit',
-                  'C/C++', 'Git',
-                  'Python', 'Jira', 'Swift',
-                  'Visual Studio', 'Agile Development'];
+  const skills = ['C++', 'UnrealEngine', 'OpenXR','ARKit',
+                  'C#', 'Git', 'Perforce',
+                  'Python', 'Jira', 'Objective-C',
+                  'Agile Development'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -150,17 +150,15 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            I was born in 1997. I loved playing video games from the day I can remember, which derived into a passion for making them.
-            I set about building games when I was a teenager using <b>Unity</b> game engine, and In college, I decided to pursue my career as a game developer. 
-            I have been a part of around ten projects from that day on.<br></br>
+          I was born in 1997 and have been passionate about video games since I can remember.
+          As a teenager, I started building games using Unity and decided to pursue a career in game development while in college. Since then, I have been a part of around ten projects, taking on roles such as environment and level designer, product manager, and programmer.
+          I have experience working on teams of up to four and have expertise in game engine programming and architecture, including Entity Component System (ECS) and Data-Driven design.
+          <br></br>
+          My programming philosophy is focused on writing clean, concise, and optimized code. In addition to game development, I have experience with a variety of technologies and languages.
+           <br></br>
+          Here are a few that I've been working with recently. 
+          <br></br>
 
-            During these projects taking on roles such as <b>environment and level designer</b>, and <b>product manager</b> in addition to programming.
-            Also, I have a good deal of experience working on teams of up to four. <br></br>
-
-            Besides developing games, I have some experience in <b>game engine programming</b> and architecture, such as Entity Component System (ECS) and Data-Driven design.<br></br>
-            I have always had the mindset of clean, concise, resource-friendly, and optimized programming. 
-
-            Here are a few technologies and languages I've been working with recently:
                         
           </div>
 

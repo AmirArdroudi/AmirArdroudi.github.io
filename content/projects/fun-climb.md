@@ -12,7 +12,7 @@ company: 'Finite Loop Interactive'
 showInProjects: true
 ---
 
-<iframe width="265" height="160" src="https://www.youtube.com/embed/yU0ZZK-XPiw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="265" height="160" src="https://www.youtube.com/shorts/yU0ZZK-XPiw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

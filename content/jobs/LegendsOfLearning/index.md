@@ -9,12 +9,11 @@ url: 'https://www.legendsoflearning.com/'
 
 
 
-- Collaborated in a team of 4 with a fast-paced agile development approach 
-- Received feedback and reviews by both Legends of Learnings technical and content reviewers after submitting each game  
-- Helped to estimate and coordinate sprint tasks and work with a cross-functional team, including product, design, and art
-- Fixed bugs and polished the gameplay and 
-- Implemented suggested features in the QA phase in the Legends of Learning pipeline
-- Analyzed received data from players 
-- Designed and implemented a data-driven modular Dialog system with Scriptable Objects and custom event system
-- Configured CI/CD pipelines with Github actions 
-
+- Worked collaboratively in a team of 4, utilizing a fast-paced agile development approach
+- Received feedback and reviews from both technical and content reviewers at Legends of Learning after submitting each game
+- Fixed bugs and polished gameplay mechanics to improve the overall player experience
+- Implemented suggested features in the QA phase of the Legends of Learning pipeline
+- Analyzed player data to identify areas for improvement and optimization
+- Designed and implemented a data-driven modular dialog system using Scriptable Objects and a custom event system
+- Configured CI/CD pipelines using Github Actions for streamlined development and deployment processes.
+- Helped estimate and coordinate sprint tasks and worked cross-functionally with product, design, and art teams
