@@ -33,15 +33,31 @@ const StyledPostContent = styled.div`
   }
 `;
 
+const StyledDraftMessage = styled.div`
+  background-color: var(--dark-navy);
+  color: var(--white);
+  padding: 1rem;
+  text-align: center;
+  border-radius: var(--border-radius);
+  margin-bottom: 30px;
+  font-family: var(--font-mono);
+  font-size: var(--fz-md);
+`;
+
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
-  const { title, date, tags } = frontmatter;
+  const { title, date, tags, draft } = frontmatter;
 
   return (
     <Layout location={location}>
       <Helmet title={title} />
 
       <StyledPostContainer>
+        {draft && (
+          <StyledDraftMessage>
+            DRAFT: This is a draft post and is not publicly visible.
+          </StyledDraftMessage>
+        )}
         <span className="breadcrumb">
           <span className="arrow">&larr;</span>
           <Link to="/pensieve">All memories</Link>
@@ -91,6 +107,7 @@ export const pageQuery = graphql`
         date
         slug
         tags
+        draft
       }
     }
   }

@@ -118,7 +118,11 @@ const StyledTags = styled.ul`
 `;
 
 const PensievePage = ({ location, data }) => {
-  const posts = data.allMarkdownRemark.edges;
+  let posts = data.allMarkdownRemark.edges;
+
+  if (process.env.NODE_ENV === 'production') {
+    posts = posts.filter(post => !post.node.frontmatter.draft);
+  }
 
   return (
     <Layout location={location}>
@@ -139,7 +143,7 @@ const PensievePage = ({ location, data }) => {
             {posts.length > 0 &&
               posts.map(({ node }, i) => {
                 const { frontmatter } = node;
-                const { title, description, slug, date, tags } = frontmatter;
+                const { title, description, slug, date, tags, draft } = frontmatter;
                 const d = new Date(date);
 
                 return (
@@ -152,7 +156,14 @@ const PensievePage = ({ location, data }) => {
                               <IconZap />
                             </StyledFolder>
                           </StyledPostHeader>
-                          <StyledPostName>{title}</StyledPostName>
+                          <StyledPostName>
+                            {title}
+                            {process.env.NODE_ENV !== 'production' && draft && (
+                              <span style={{ color: 'orange', fontSize: 'var(--fz-sm)', marginLeft: '10px' }}>
+                                [DRAFT]
+                              </span>
+                            )}
+                          </StyledPostName>
                           <StyledPostDescription>{description}</StyledPostDescription>
                         </Link>
                       </header>
@@ -191,7 +202,7 @@ export default PensievePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/posts/" }, frontmatter: { draft: { ne: true } } }
+      filter: { fileAbsolutePath: { regex: "/posts/" } } # Removed draft filter here
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

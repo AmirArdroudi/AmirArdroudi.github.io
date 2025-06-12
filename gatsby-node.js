@@ -23,6 +23,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           node {
             frontmatter {
               slug
+              draft
             }
           }
         }
@@ -42,13 +43,18 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 
   // Create post detail pages
-  const posts = result.data.postsRemark.edges;
+  let posts = result.data.postsRemark.edges;
+
+  // Filter out draft posts in production
+  if (process.env.NODE_ENV === 'production') {
+    posts = posts.filter(({ node }) => !node.frontmatter.draft);
+  }
 
   posts.forEach(({ node }) => {
     createPage({
       path: node.frontmatter.slug,
       component: postTemplate,
-      context: {},
+      context: {}, // Add additional context here if needed
     });
   });
 
